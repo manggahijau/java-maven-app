@@ -6,7 +6,7 @@ pipeline {
         maven 'maven-3.9'
     }
     environment {
-        DOCKER_IMAGE = 'azeshion21/demo-app:jma-3.0'
+        DOCKER_IMAGE = 'manggahijau/demo-app:jma-3.0'
     }
     stages {
         stage("Initialize") {
